@@ -8,9 +8,11 @@ Required packages for building the agents are:
 
 stable-baselines3 1.8.0  
 sb3-contrib 1.7.0  
-torch 1.12.0
+torch 1.12.0  
 
 Required package for building the multi-band environment is:
-optical-rl-gym https://github.com/carlosnatalino/optical-rl-gym?tab=readme-ov-file
+
+optical-rl-gym https://github.com/carlosnatalino/optical-rl-gym?tab=readme-ov-file  
+gym 0.21.0
 
 Please contact ab20471@bristol.ac.uk for any related question.
