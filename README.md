@@ -15,5 +15,6 @@ Required package for building the multi-band environment is:
 optical-rl-gym https://github.com/carlosnatalino/optical-rl-gym?tab=readme-ov-file  
 gym 0.21.0
 
-one tip to enhance the stability of training is setting the **next_non_terminal** value used in function **compute_returns_and_advantage**(line 368-405) at **stable_baselines/common/buffers.py** to always be 1.0.  
+one tip to enhance the training stability is to set **next_non_terminal** to 1.0 all the time in  **compute_returns_and_advantage** (line 368-405) in **stable_baselines/common/buffers.py**, i.e., treat all next states as non-terminal during return and advantage computation. 
+
 Please contact ab20471@bristol.ac.uk for any related question.
