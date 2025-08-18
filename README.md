@@ -1,8 +1,9 @@
 # DRL-RMBSA
 There are codes for training and testing the DRL agent for dynamic service provisioning in multi-band elastic optical networks.
 
-Run DRL_RMBSA_Train.py and DRL_RMBSA_PCA_Train.py to train the DRL agent using DRL-RMBSA and DRL-RMBSA-PCA algorithms.  
-Run DRL_Agent_Test.py to test the performance of the DRL agent with the best models saved during training.
+Run **DRL_RMBSA_Train.py** and **DRL_RMBSA_PCA_Train.py** to train the DRL agent using DRL-RMBSA and DRL-RMBSA-PCA algorithms.  
+Run **DRL_Agent_Test.py** to test the performance of the DRL agent with the best models saved during training.  
+Run **Heuristics_Test.py** to run heuristics including KSP-FB-FF, KSP-MinMaxF, and KSP-HCP-HMF.
 
 Required packages for building the agents are:
 
