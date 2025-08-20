@@ -7,12 +7,12 @@ Run **Heuristics_Test.py** to run heuristics including KSP-FB-FF, KSP-MinMaxF, a
 
 Main python packages version used in this study is:
 
-python 3.7.0
+python 3.7.0  
 stable-baselines3 1.8.0  
 sb3-contrib 1.7.0  
-torch 1.12.0  
-optical-rl-gym https://github.com/carlosnatalino/optical-rl-gym?tab=readme-ov-file  
-gym 0.21.0
+torch 1.12.0    
+gym 0.21.0  
+optical-rl-gym https://github.com/carlosnatalino/optical-rl-gym?tab=readme-ov-file
 
 one tip to enhance the training stability is to set **next_non_terminal** to 1.0 all the time in  **compute_returns_and_advantage** (line 368-405) in **stable_baselines/common/buffers.py**, i.e., treat all next states as non-terminal during return and advantage computation. 
 
