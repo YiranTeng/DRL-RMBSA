@@ -18,6 +18,6 @@ one tip to enhance the training stability is to set **next_non_terminal** to 1.0
 
 The channels/paths modulation format profile is generateed based on this reference https://ieeexplore.ieee.org/abstract/document/10892225, and stored in **NSFNET_modulation_table.mat**.
 
-The data used for plotting in the paper is stored **file Results_NSFNET**.  
+The data used for plotting in the paper is stored at **Results_NSFNET**.  
 
 Please contact ab20471@bristol.ac.uk for any related question.
