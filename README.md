@@ -18,6 +18,6 @@ gym 0.21.0
 
 one tip to enhance the training stability is to set **next_non_terminal** to 1.0 all the time in  **compute_returns_and_advantage** (line 368-405) in **stable_baselines/common/buffers.py**, i.e., treat all next states as non-terminal during return and advantage computation. 
 
-The data used for plotting in the paper is stored in file Results_NSFNET.  
+The data used for plotting in the paper is stored in **file Results_NSFNET**.  
 
 Please contact ab20471@bristol.ac.uk for any related question.
