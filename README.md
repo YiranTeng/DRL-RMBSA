@@ -5,14 +5,12 @@ Run **DRL_RMBSA_Train.py** and **DRL_RMBSA_PCA_Train.py** to train the DRL agent
 Run **DRL_Agent_Test.py** to test the performance of the DRL agent with the best models saved during training.  
 Run **Heuristics_Test.py** to run heuristics including KSP-FB-FF, KSP-MinMaxF, and KSP-HCP-HMF.
 
-Required packages for building the agents are:
+Main python packages version used in this study is:
 
+python 3.7.0
 stable-baselines3 1.8.0  
 sb3-contrib 1.7.0  
 torch 1.12.0  
-
-Required package for building the multi-band environment is:
-
 optical-rl-gym https://github.com/carlosnatalino/optical-rl-gym?tab=readme-ov-file  
 gym 0.21.0
 
