@@ -18,7 +18,7 @@ gym 0.21.0
 
 one tip to enhance the training stability is to set **next_non_terminal** to 1.0 all the time in  **compute_returns_and_advantage** (line 368-405) in **stable_baselines/common/buffers.py**, i.e., treat all next states as non-terminal during return and advantage computation. 
 
-The are acquired based on this reference https://ieeexplore.ieee.org/abstract/document/10892225.
+The channels/paths modulation format profile is acquired based on this reference https://ieeexplore.ieee.org/abstract/document/10892225 and stored in **modulation_table.mat**
 
 The data used for plotting in the paper is stored **file Results_NSFNET**.  
 
