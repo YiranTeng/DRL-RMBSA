@@ -14,7 +14,7 @@ torch 1.12.0
 gym 0.21.0  
 optical-rl-gym 0.0.2a0 (installation and more details: https://github.com/carlosnatalino/optical-rl-gym?tab=readme-ov-file)
 
-one tip to enhance the training stability is to set **next_non_terminal** to 1.0 all the time in  function **compute_returns_and_advantage** (line 368-405) in **stable_baselines/common/buffers.py**, i.e., treat all next states as non-terminal during return and advantage computation. 
+one tip to enhance the training stability is to manually set **next_non_terminal = 1.0** in  function **compute_returns_and_advantage** (line 368-405) in **stable_baselines/common/buffers.py**, i.e., treat all next states as non-terminal during return and advantage computation. 
 
 The channels/paths modulation format profile **NSFNET_modulation_table.mat** is generated based on the reference https://ieeexplore.ieee.org/abstract/document/10892225.
 
