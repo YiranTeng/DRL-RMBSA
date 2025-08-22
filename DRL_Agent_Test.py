@@ -153,7 +153,7 @@ k_paths = 5
 with open(f'{topology_name}_{k_paths}-paths_6-modulations.h5', 'rb') as f:
      topology = pickle.load(f)
 
-number_episodes = 20
+number_episodes = 200
 traffic_load_list = [700,750,800,850,900,950]
 
 if __name__ == '__main__':
@@ -176,4 +176,5 @@ if __name__ == '__main__':
     [p.join() for p in processes]
 
     end = time.time()
+
     print('run_time:' + str(end - start))
