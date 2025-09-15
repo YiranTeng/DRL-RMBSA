@@ -1,5 +1,5 @@
 # DRL-RMBSA
-There are codes for training and testing the DRL agent for dynamic service provisioning in multi-band elastic optical networks. For more details, please check paper: DRL-Assisted QoT-Aware Service Provisioning in Multi-Band Elastic Optical Networks (https://ieeexplore.ieee.org/abstract/document/11131684).
+There are codes for training and testing the DRL agent for dynamic service provisioning in multi-band elastic optical networks. For more details, please check this paper: https://ieeexplore.ieee.org/abstract/document/11131684.
 
 Run **DRL_RMBSA_Train.py** and **DRL_RMBSA_PCA_Train.py** to train the DRL agent using DRL-RMBSA and DRL-RMBSA-PCA algorithms.  
 Run **DRL_Agent_Test.py** to test the performance of the DRL agent with the best models saved during training.  
