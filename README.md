@@ -2,7 +2,7 @@
 The repository contains the codes for training and testing the deep reinforcement learning (DRL) agent for dynamic service provisioning in multi-band elastic optical networks (MB-EONs). The DRL-based algorithms and heuristic algorithms are evaluated in a simulated MB-EON with NSFNET topology, using L+C+S band and without traffic grooming. For more details, please check this paper: https://ieeexplore.ieee.org/abstract/document/11131684.
 
 Run **DRL_RMBSA_Train.py** and **DRL_RMBSA_PCA_Train.py** to train the DRL agent using DRL-RMBSA and DRL-RMBSA-PCA algorithms.  
-Run **DRL_Agent_Test.py** to test the performance of the DRL agent with the best models saved during training.  
+Run **DRL_Agent_Test.py** to test the performance of the DRL agent with the best model saved during training.  
 Run **Heuristics_Test.py** to run heuristics including KSP-FB-FF, KSP-MinMaxF, and KSP-HCP-HMF.
 
 Main python packages version used in this study is:
